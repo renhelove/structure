@@ -284,7 +284,7 @@ class TestTree extends Tree {
 }
 
 $arr = array(
-    0 => array('id' => '0', 'parentid' => -1, 'name' => 'moren'),
+    0 => array('id' => '0', 'parentid' => -1, 'name' => 'moren1'),
     1 => array('id' => '1', 'parentid' => 0, 'name' => '一级栏目一'),
     2 => array('id' => '2', 'parentid' => 0, 'name' => '一级栏目二'),
     3 => array('id' => '3', 'parentid' => 1, 'name' => '二级栏目一'),
