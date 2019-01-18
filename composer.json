@@ -1,0 +1,12 @@
+{
+    "name": "renhelove/structure",
+    "description": "primary structure",
+    "type": "library",
+    "authors": [
+        {
+            "name": "renhelove",
+            "email": "514604870@qq.com"
+        }
+    ],
+    "require": {}
+}
