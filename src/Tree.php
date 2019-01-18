@@ -1,6 +1,5 @@
 <?php
-require_once "Stack.php";
-require_once "Queue.php";
+namespace Renhelove\Structure;
 
 /**
  * Created by PhpStorm.

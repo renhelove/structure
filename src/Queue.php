@@ -1,5 +1,5 @@
 <?php
-
+namespace Renhelove\Structure;
 /**
  * Created by PhpStorm.
  * User: Administrator

@@ -13,7 +13,7 @@
   },
   "autoload": {
     "psr-4": {
-      "renhelove\\structure\\": "src/"
+      "Renhelove\\Structure\\": "src/"
     }
   }
 }

@@ -5,7 +5,7 @@
  * Date: 2018/1/10
  * Time: 17:40
  */
-
+namespace Renhelove\Structure;
 class Stack {
     public $top;
     public $stack;
