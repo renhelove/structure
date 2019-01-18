@@ -1,12 +1,17 @@
 {
-    "name": "renhelove/structure",
-    "description": "primary structure",
-    "type": "library",
-    "authors": [
-        {
-            "name": "renhelove",
-            "email": "514604870@qq.com"
-        }
-    ],
-    "require": {}
+  "name": "renhelove/structure",
+  "description": "primary structure",
+  "type": "library",
+  "authors": [
+    {
+      "name": "renhelove",
+      "email": "514604870@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">5.6.0"
+  },
+  "psr-4": {
+    "renhelove\\structure\\": "src/"
+  }
 }
