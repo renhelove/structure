@@ -215,9 +215,13 @@ class Tree
     }
 
     function getTreeArr(Node $node) {
-        $treeObj = $this->originArr[$node->getKey()];
-        $treeArr = $this->objToArr($treeObj);
+        $treeArr = $this->objToArr($this->getTreeObj($node));
         return $treeArr;
+    }
+
+    function getTreeObj(Node $node) {
+        $treeObj = $this->originArr[$node->getKey()];
+        return $treeObj;
     }
 
     function objToArr($obj) {
@@ -284,11 +288,11 @@ class TestTree extends Tree {
 
 $arr = array(
     0 => array('id' => '0', 'parentid' => -1, 'name' => 'moren1'),
-    1 => array('id' => '1', 'parentid' => 0, 'name' => '一级栏目一'),
-    2 => array('id' => '2', 'parentid' => 0, 'name' => '一级栏目二'),
-    3 => array('id' => '3', 'parentid' => 1, 'name' => '二级栏目一'),
-    4 => array('id' => '4', 'parentid' => 1, 'name' => '二级栏目二'),
-    5 => array('id' => '5', 'parentid' => 2, 'name' => '二级栏目三'),
+    1 => array('id' => '1', 'parentid' => 0, 'name' => '一级栏目二'),
+    2 => array('id' => '2', 'parentid' => 1, 'name' => '二级栏目一'),
+    3 => array('id' => '3', 'parentid' => 1, 'name' => '二级栏目二'),
+    4 => array('id' => '4', 'parentid' => 2, 'name' => '二级栏目三'),
+    5 => array('id' => '5', 'parentid' => 0, 'name' => '一级栏目一'),
     6 => array('id' => '6', 'parentid' => 3, 'name' => '三级栏目一'),
     7 => array('id' => '7', 'parentid' => 3, 'name' => '三级栏目二')
 );
